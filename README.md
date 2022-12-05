@@ -1,10 +1,22 @@
 # Coding-One-Final-Project
-## Inspiration
+## About My Project
 ####
 I used the THREE.js I learned in Lesson 6 (week7) to make the final project. I added some effects and experimented with the original class assignment.In the original assignment, I just made a simple plane as the floor, and put two rotating cylinders and pasted pictures of jellyfish on them.
 ####
 For this final assignment, I first added the background of the starry sky and made the space on the second side.I really like how jellyfish look in the tank in aquarium, so I made a total of four cylinders and sticked the jellyfish pattern on them. 
 <img width="1186" alt="截圖 2022-12-05 11 01 28" src="https://user-images.githubusercontent.com/109679670/205621514-513c74b5-6436-4343-9c59-b276e61b8edc.png">
+####
+I collected photos of jellyfish in both dark blue and light pink patterns, and when I accidentally overlapped jellyfish cylinders with different pictures posted on them, I found them to have an interesting spiral effect. I changed all four columns into this form.
+####
+In the middle I put two rotating torus, which are also rotating, and in the very center is a sphere symbolizing the ocean.
+####
+I was inspired by the Javascript Crash Course 7 and wanted to add some mechanism for interacting with the mouse, and then I decided to use the mouse to change the color of the environment. I wrote the code from line 231 to line 236, hoping that the light of the entire environment will change when the mouse is clicked, symbolizing the various color changes of the ocean seen at different time points, but my code did not work.
+
+####
+I'm still trying to figure it out. In addition, I also hope to add and change the picture of the ocean on the middle sphere in the future to echo the ambient light.
+####
+In addition, when trying to add mouse interaction, the canvas shrinks for some reason, and the background color that should not appear on the top appears. This part also needs to be resolved.
+
 
 # Mimic Link
 https://mimicproject.com/code/50e09956-1661-08f8-16a3-2de76282c42a
