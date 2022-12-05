@@ -10,9 +10,33 @@ I collected photos of jellyfish in both dark blue and light pink patterns, and w
 ####
 In the middle I put two rotating torus, which are also rotating, and in the very center is a sphere symbolizing the ocean.
 ####
-I was inspired by the Javascript Crash Course 7 and wanted to add some mechanism for interacting with the mouse, and then I decided to use the mouse to change the color of the environment. I wrote the code from line 231 to line 236, hoping that the light of the entire environment will change when the mouse is clicked, symbolizing the various color changes of the ocean seen at different time points, but my code did not work.
-
-####
+I was inspired by the Javascript Crash Course 7 and wanted to add some mechanism for interacting with the mouse, and then I decided to use the mouse to change the color of the environment. I wrote the code from line 212 to line 236, hoping that the light of the entire environment will change when the mouse is clicked, symbolizing the various color changes of the ocean seen at different time points, but my code did not work.
+```
+//set light
+    var n = 0;
+        const Lightcolor1 = "#FFFFFF";
+        const Lightcolor2 = "#960018";
+        let Lightcolor = 0;
+        let satuation = 1;
+       
+        //click to change
+        function ClickEve() {
+            n++;
+            console.log(n);
+            if (n % 2 != 0) {
+            Lightcolor = Lightcolor2;
+            }
+            else {
+                Lightcolor = Lightcolor1;
+            }
+        }
+      canvas.addEventListener("click", ClickEve);
+        let light2 = new THREE.DirectionalLight(Lightcolor, satuation);
+        light2.position.set(0, 0, 30);
+        scene.add(light2);
+        renderer.render(scene, camera);
+```        
+#### 
 I'm still trying to figure it out. In addition, I also hope to add and change the picture of the ocean on the middle sphere in the future to echo the ambient light.
 ####
 In addition, when trying to add mouse interaction, the canvas shrinks for some reason, and the background color that should not appear on the top appears. This part also needs to be resolved.
@@ -275,6 +299,7 @@ requestAnimationFrame(draw());
       
 	</script>
 </body>
-```
+
 
 </html>
+```
