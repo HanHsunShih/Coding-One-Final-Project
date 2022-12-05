@@ -4,6 +4,14 @@
 I used the THREE.js I learned in Lesson 6 (week7) to make the final project. I added some effects and experimented with the original class assignment.In the original assignment, I just made a simple plane as the floor, and put two rotating cylinders and pasted pictures of jellyfish on them.
 ####
 For this final assignment, I first added the background of the starry sky and made the space on the second side.I really like how jellyfish look in the tank in aquarium, so I made a total of four cylinders and sticked the jellyfish pattern on them. 
+<img width="1186" alt="截圖 2022-12-05 11 01 28" src="https://user-images.githubusercontent.com/109679670/205621514-513c74b5-6436-4343-9c59-b276e61b8edc.png">
+
+# Mimic Link
+https://mimicproject.com/code/50e09956-1661-08f8-16a3-2de76282c42a
+
+# Youtube Link
+https://youtu.be/0cT_Oz8a_p0![image](https://user-images.githubusercontent.com/109679670/205622217-aa3ec272-941e-4d81-94d3-426b2ee4aba4.png)
+
 
 
 # Code
