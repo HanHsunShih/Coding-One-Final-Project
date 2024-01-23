@@ -50,7 +50,7 @@ https://youtu.be/0cT_Oz8a_p0![image](https://user-images.githubusercontent.com/1
 
 
 
-# Code
+# Code HTML Javascript
 
 ```javascript
 <html>
